@@ -26,3 +26,8 @@ http://localhost:8000/api/v1
 
 Já está recebendo método GET, POST, PUT, DELETE.
 Porém será necessário alterá-lo.
+
+# Gerar e rodar migrations
+python manage.py migrate
+
+python manage.py makemigrations
